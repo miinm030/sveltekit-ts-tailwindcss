@@ -4,7 +4,15 @@ module.exports = {
 		"./src/**/*.{html,js,svelte,ts}",
 	],
 	theme: {
-		extend: {},
+		colors: {
+			while: '#ffffff',
+			beige: '#FFFBF4',
+			salmon: '#F7A49E',
+			brown: '#452200'
+		},
+		extend: {
+			
+		},
 	},
 	plugins: [],
 };
